@@ -17,5 +17,23 @@ buttonValue = stick.getTop();
 buttonValue = stick.getTrigger();
 
 
+
+double value;
+
+value = stick.getRawAxis(1);
+
+boolean buttonValue;
+
+buttonValue = stick.getRawButton(2);
+
+double value;
+
+value = stick.getDirectionDegrees();
+value = stick.getDirectionRadians();
+
+value = stick.getMagnitude();
+
+
+
 }
 }
